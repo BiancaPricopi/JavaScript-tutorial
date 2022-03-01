@@ -4,7 +4,6 @@
 
 let age = 10;
 
-debugger;
 if(age > 18)
 {
     console.log("You are over 18.");
@@ -12,4 +11,10 @@ if(age > 18)
 else
 {
     console.log("You are under 18.");
+}
+//loops
+const week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+for(i = 0; i < week.length; i++)
+{
+    console.log(week[i]);
 }
