@@ -30,3 +30,14 @@ do
     console.log("mhm");
     number++;
 }while(number < 10)
+
+let month = "spring";
+month= "may";
+switch(month)
+{
+    case "spring":
+        console.log("Hello Spring!");
+        break;
+    default:
+        console.log("I want some rice.")
+}
