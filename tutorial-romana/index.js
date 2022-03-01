@@ -24,3 +24,9 @@ while(number < 10)
     console.log("Hello, " + number + " primavara!!!!!!!");
     number++;
 }
+
+do
+{
+    console.log("mhm");
+    number++;
+}while(number < 10)
