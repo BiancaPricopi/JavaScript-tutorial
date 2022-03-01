@@ -2,12 +2,24 @@
 //let locale, var globale
 //good practice: let + const
 
-console.log(myName);
-const age = 5;
+let isMinor = true; //boolean
+console.log(typeof(isMinor));
 
-{
-    var myName = "Bianca";
-    let secondName = "Mihai";
+let n = null;
+console.log(typeof(n));
+
+let undf = undefined;
+console.log(typeof(undf)); //variabile nedefinite
+
+let num = 120;
+console.log(typeof(num));
+
+let str = "hello";
+console.log(typeof(str));
+
+//obiect 
+let person = {
+    age : 20,
+    name : "Bogdan"
 }
-console.log(myName);
-console.log(secondName);
+console.log(person);
