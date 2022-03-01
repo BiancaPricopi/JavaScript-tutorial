@@ -18,3 +18,9 @@ for(i = 0; i < week.length; i++)
 {
     console.log(week[i]);
 }
+let number = 0;
+while(number < 10)
+{
+    console.log("Hello, " + number + " primavara!!!!!!!");
+    number++;
+}
